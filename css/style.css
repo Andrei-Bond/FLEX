@@ -168,6 +168,39 @@ body.lock {
   margin-bottom: 0px;
 }
 
+.what {
+  padding: 50px 0;
+}
+
+.what__row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.what__body {
+  margin: 0 60px;
+}
+
+.what__title {
+  margin-bottom: 33px;
+}
+
+.what__text {
+  color: #333333;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.what__text p:first-child {
+  margin-bottom: 30px;
+}
+
+.title {
+  font-size: 30px;
+  color: #445161;
+  line-height: 36px;
+}
+
 .footer {
   background-color: #F5F5F5;
 }

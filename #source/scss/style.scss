@@ -96,6 +96,7 @@ body {
 }
 .content {
 }
+//<БЛОК HI>========================================================================
 .hi {
 	background-color: #445162;
 	padding: 50px 0px;
@@ -131,7 +132,44 @@ body {
 		&__image {
 		}
 }
+//<БЛОК what>===========================================================================
+.what {
+	padding: 50px 0;
+	&__row {
+		display: flex;
+		justify-content: space-between;
+	}
 
+	&__image {
+	}
+
+	&__body {
+		margin: 0 60px;
+	}
+
+	&__title {
+		margin-bottom: 33px;
+	}
+
+	&__text {
+		color:#333333;
+		font-size:16px;
+		line-height: 24px;
+		& p:first-child{
+			margin-bottom: 30px;
+		}
+	}
+}
+.container {
+}
+.title {
+	font-size:30px;
+	color:#445161;
+	line-height: 36px;
+}
+
+
+//<БЛОК footer>=======================================================
 .footer {
 	background-color: #F5F5F5;
 
