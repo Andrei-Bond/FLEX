@@ -242,6 +242,89 @@ body.lock {
   margin: 15px 14px 0 15px;
 }
 
+.vertik {
+  max-width: 990px;
+  margin: 0 auto 50px auto;
+}
+
+.vertik__title {
+  margin: 48px auto 30px auto;
+  text-align: center;
+}
+
+.vertik__row {
+  display: flex;
+  margin: 0 -22.5px;
+}
+
+@media (max-width: 991.98px) {
+  .vertik__row {
+    flex-direction: column;
+  }
+}
+
+.vertik__column {
+  display: flex;
+  flex-direction: column;
+  flex: 0 1 33.333%;
+  justify-content: space-between;
+  border: 2px solid #445162;
+  border-radius: 5px;
+  background-color: #445162;
+  margin: 0px 22.5px;
+}
+
+.vertik__header {
+  font-size: 24px;
+  line-height: 51px;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #445162;
+  flex: 0 0 51px;
+}
+
+.vertik__subtitle {
+  font-size: 40px;
+  flex: 0 0 71px;
+  line-height: 61px;
+  justify-content: center;
+  color: #445162;
+  text-align: center;
+  background-color: #FFFFFF;
+}
+
+.vertik__text {
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  background-color: #445162;
+  padding: 19px 30px 0 20px;
+  flex: 1 1 auto;
+}
+
+.vertik__text p {
+  padding-bottom: 35px;
+}
+
+.vertik__text p:last-child {
+  padding-bottom: 0px;
+}
+
+.vertik__button {
+  margin: 20px auto;
+  font-size: 18px;
+  line-height: 41px;
+  color: #445161;
+  font-weight: bold;
+  text-align: center;
+  width: 260px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  flex: 0 0 41px;
+}
+
 .footer {
   background-color: #F5F5F5;
 }
